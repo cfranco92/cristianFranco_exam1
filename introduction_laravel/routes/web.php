@@ -18,8 +18,8 @@ Route::get('/', function () {
 });
 
 // User routes
-Route::get('/user/list', 'UserController@index')->name('user.index');
-Route::get('/user/create', 'UserController@create')->name('user.create');
-Route::get('/user/show/{id}', 'UserController@show' )->name("user.show");
-Route::post('users', 'UserController@store')->name('users.store');
-Route::delete('user/{user}', 'UserController@destroy')->name('user.destroy');
+Route::get('/vivienda/list', 'ViviendaController@index')->name('vivienda.index');
+Route::get('/vivienda/create', 'ViviendaController@create')->name('vivienda.create');
+Route::get('/vivienda/show', 'ViviendaController@show' )->name("vivienda.show");
+Route::post('viviendas', 'ViviendaController@store')->name('viviendas.store');
+Route::delete('vivienda/{vivienda}', 'ViviendaController@destroy')->name('vivienda.destroy');

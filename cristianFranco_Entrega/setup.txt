@@ -1,0 +1,3 @@
+La carpeta request, queda en el mismo nivel que la carpeta controllers.
+
+Si fallan los archivos, anexo igualmente el proyecto completo.

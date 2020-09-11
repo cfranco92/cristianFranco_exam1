@@ -13,8 +13,9 @@
         </div>
 
         <div class="links">
-            <a href="{{ route('user.create') }}">Create User</a>
-            <a href="{{ route('user.index') }}">User List</a>
+            <a href="{{ route('vivienda.create') }}">Registrar viviendas</a>
+            <a href="{{ route('vivienda.index') }}">Listar viviendas</a>
+            <a href="{{ route('vivienda.show') }}">Estadísticas</a>
         </div>
     </div>
 </div>

@@ -38,10 +38,13 @@
                     <ul class="navbar-nav mr-auto">
                         <!-- Future authentication Links -->
                         <ul>
-                            <a href="{{ route('user.create') }}">Create User</a>
+                            <a href="{{ route('vivienda.create') }}">Registrar vivienda</a>
                         </ul>
                         <ul>
-                            <a href="{{ route('user.index') }}">User List</a>
+                            <a href="{{ route('vivienda.index') }}">Listar viviendas</a>
+                        </ul>
+                        <ul>
+                            <a href="{{ route('vivienda.show') }}">Estadísticas</a>
                         </ul>
                     </ul>
 
